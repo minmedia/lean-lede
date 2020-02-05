@@ -131,8 +131,8 @@ jobs:
           
           CONFIG_PACKAGE_luci-app-openvpn=y
           CONFIG_PACKAGE_luci-app-openvpn-server=y
-          CONFIG_PACKAGE_luci-i18n-openvpn-server-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-openvpn-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-openvpn-server-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-openvpn-zh-cn=y
           CONFIG_PACKAGE_openvpn-easy-rsa=y
           CONFIG_PACKAGE_openvpn-openssl=y
           #CONFIG_OPENVPN_openssl_ENABLE_LZO=y
@@ -171,44 +171,44 @@ jobs:
           CONFIG_PACKAGE_luci-app-pppoe-relay=y
           CONFIG_PACKAGE_luci-app-pppoe-server=y
           CONFIG_PACKAGE_luci-app-pptp-vpnserver-manyusers=y
-          CONFIG_PACKAGE_luci-i18n-pppoe-relay-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-pppoe-server-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-pptp-vpnserver-manyusers-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-pppoe-relay-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-pppoe-server-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-pptp-vpnserver-manyusers-zh-cn=y
           #CONFIG_PACKAGE_rp-pppoe-common=y
           #CONFIG_PACKAGE_rp-pppoe-relay=y
           #CONFIG_PACKAGE_rp-pppoe-server=y
-          CONFIG_PACKAGE_ppp=y
-          CONFIG_PACKAGE_ppp-mod-pppoe=y
+          #CONFIG_PACKAGE_ppp=y
+          #CONFIG_PACKAGE_ppp-mod-pppoe=y
           
           
           CONFIG_PACKAGE_luci-app-qbittorrent=y
-          CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn=y
           #CONFIG_PACKAGE_qBittorrent=y
           
           CONFIG_PACKAGE_luci-app-splash=y
-          CONFIG_PACKAGE_luci-i18n-splash-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-splash-zh-cn=y
           
-          CONFIG_PACKAGE_luci-app-sqm=y
+          #CONFIG_PACKAGE_luci-app-sqm=y
           
           CONFIG_PACKAGE_luci-app-ssrserver-python=y
-          CONFIG_PACKAGE_luci-i18n-ssr-python-pro-server-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-ssr-python-pro-server-zh-cn=y
+          
+          CONFIG_PACKAGE_luci-app-v2ray-server=y
+          #CONFIG_PACKAGE_luci-i18n-v2ray-server-zh-cn=y
           
           CONFIG_PACKAGE_trojan=y
-          CONFIG_PACKAGE_luci-app-v2ray-server=y
-          CONFIG_PACKAGE_luci-i18n-v2ray-server-zh-cn=y
-          
           CONFIG_PACKAGE_luci-app-trojan-server=y
-          CONFIG_PACKAGE_luci-i18n-trojan-server-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-trojan-server-zh-cn=y
           
           CONFIG_PACKAGE_luci-app-ttyd=y
-          CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
           
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
-          CONFIG_PACKAGE_luci-i18n-wrtbwmon-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-wrtbwmon-zh-cn=y
           
-          CONFIG_DEFAULT_luci-app-nlbwmon=y
+          #CONFIG_DEFAULT_luci-app-nlbwmon=y
           CONFIG_PACKAGE_luci-app-netdata=y
-          CONFIG_PACKAGE_luci-app-hd-idle=y
+          #CONFIG_PACKAGE_luci-app-hd-idle=y
           CONFIG_PACKAGE_minieap=y
           #CONFIG_PACKAGE_luci-app-familycloud=y
           CONFIG_PACKAGE_luci-app-koolproxyR=y
@@ -218,7 +218,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-unblockmusic=y
           
           CONFIG_PACKAGE_luci-app-smartdns=y
-          CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
           CONFIG_PACKAGE_smartdns=y
           
           CONFIG_PACKAGE_luci-app-ramfree=y
@@ -226,21 +226,22 @@ jobs:
           CONFIG_PACKAGE_kmod-wireguard=y
           CONFIG_PACKAGE_luci-app-wireguard=y
           CONFIG_PACKAGE_luci-proto-wireguard=y
-          CONFIG_PACKAGE_luci-i18n-wireguard-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-wireguard-zh-cn=y
           CONFIG_PACKAGE_wireguard=y
           CONFIG_PACKAGE_wireguard-tools=y
           
           CONFIG_PACKAGE_luci-app-guest-wifi=y
-          CONFIG_PACKAGE_luci-i18n-guest-wifi-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-guest-wifi-zh-cn=y
           CONFIG_PACKAGE_luci-app-wifischedule=y
-          CONFIG_PACKAGE_luci-i18n-wifischedule-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-wifischedule-zh-cn=y
           
           CONFIG_PACKAGE_zerotier=y
           CONFIG_PACKAGE_luci-app-zerotier=y
-          CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
-          CONFIG_DEFAULT_luci-app-wol=y
+          #CONFIG_PACKAGE_luci-i18n-zerotier-zh-cn=y
+          
+          #CONFIG_DEFAULT_luci-app-wol=y
           CONFIG_PACKAGE_luci-app-wol=y
-          CONFIG_PACKAGE_luci-i18n-wol-zh-cn=y
+          #CONFIG_PACKAGE_luci-i18n-wol-zh-cn=y
           EOF
            
           # LuCI主题:
