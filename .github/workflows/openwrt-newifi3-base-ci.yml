@@ -185,7 +185,7 @@ jobs:
           #CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn=y
           #CONFIG_PACKAGE_qBittorrent=y
           
-          CONFIG_PACKAGE_luci-app-splash=y
+          #CONFIG_PACKAGE_luci-app-splash=y
           #CONFIG_PACKAGE_luci-i18n-splash-zh-cn=y
           
           #CONFIG_PACKAGE_luci-app-sqm=y
@@ -209,7 +209,7 @@ jobs:
           #CONFIG_DEFAULT_luci-app-nlbwmon=y
           CONFIG_PACKAGE_luci-app-netdata=y
           #CONFIG_PACKAGE_luci-app-hd-idle=y
-          CONFIG_PACKAGE_minieap=y
+          #CONFIG_PACKAGE_minieap=y
           #CONFIG_PACKAGE_luci-app-familycloud=y
           CONFIG_PACKAGE_luci-app-koolproxyR=y
           CONFIG_PACKAGE_luci-app-mwan3=y
@@ -219,7 +219,7 @@ jobs:
           
           CONFIG_PACKAGE_luci-app-smartdns=y
           #CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
-          CONFIG_PACKAGE_smartdns=y
+          #CONFIG_PACKAGE_smartdns=y
           
           CONFIG_PACKAGE_luci-app-ramfree=y
           
