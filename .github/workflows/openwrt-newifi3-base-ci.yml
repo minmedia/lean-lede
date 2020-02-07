@@ -135,15 +135,15 @@ jobs:
           #CONFIG_PACKAGE_luci-i18n-openvpn-zh-cn=y
           CONFIG_PACKAGE_openvpn-easy-rsa=y
           CONFIG_PACKAGE_openvpn-openssl=y
-          #CONFIG_OPENVPN_openssl_ENABLE_LZO=y
-          #CONFIG_OPENVPN_openssl_ENABLE_LZ4=y
-          #CONFIG_OPENVPN_openssl_ENABLE_SERVER=y
-          #CONFIG_OPENVPN_openssl_ENABLE_FRAGMENT=y
-          #CONFIG_OPENVPN_openssl_ENABLE_MULTIHOME=y
-          #CONFIG_OPENVPN_openssl_ENABLE_PORT_SHARE=y
-          #CONFIG_OPENVPN_openssl_ENABLE_DEF_AUTH=y
-          #CONFIG_OPENVPN_openssl_ENABLE_PF=y
-          #CONFIG_OPENVPN_openssl_ENABLE_SMALL=y
+          CONFIG_OPENVPN_openssl_ENABLE_LZO=y
+          CONFIG_OPENVPN_openssl_ENABLE_LZ4=y
+          CONFIG_OPENVPN_openssl_ENABLE_SERVER=y
+          CONFIG_OPENVPN_openssl_ENABLE_FRAGMENT=y
+          CONFIG_OPENVPN_openssl_ENABLE_MULTIHOME=y
+          CONFIG_OPENVPN_openssl_ENABLE_PORT_SHARE=y
+          CONFIG_OPENVPN_openssl_ENABLE_DEF_AUTH=y
+          CONFIG_OPENVPN_openssl_ENABLE_PF=y
+          CONFIG_OPENVPN_openssl_ENABLE_SMALL=y
           
           #CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
           #CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
@@ -168,12 +168,12 @@ jobs:
           CONFIG_PACKAGE_luci-app-passwall_INCLUDE_dns2socks=y
           
           ###CONFIG_PACKAGE_luci-proto-ppp=y
-          ###CONFIG_PACKAGE_luci-app-pppoe-relay=y
-          ###CONFIG_PACKAGE_luci-app-pppoe-server=y
+          CONFIG_PACKAGE_luci-app-pppoe-relay=y
+          CONFIG_PACKAGE_luci-app-pppoe-server=y
           #CONFIG_PACKAGE_luci-i18n-pppoe-relay-zh-cn=y
           #CONFIG_PACKAGE_luci-i18n-pppoe-server-zh-cn=y
           
-          ##CONFIG_PACKAGE_luci-app-pptp-vpnserver-manyusers=y
+          CONFIG_PACKAGE_luci-app-pptp-vpnserver-manyusers=y
           #CONFIG_PACKAGE_luci-i18n-pptp-vpnserver-manyusers-zh-cn=y
           
           #CONFIG_PACKAGE_rp-pppoe-common=y
@@ -211,8 +211,8 @@ jobs:
           CONFIG_DEFAULT_luci-app-nlbwmon=y
           CONFIG_PACKAGE_luci-app-netdata=y
           #CONFIG_PACKAGE_luci-app-hd-idle=y
-          #CONFIG_PACKAGE_minieap=y
-          #CONFIG_PACKAGE_luci-app-familycloud=y
+          CONFIG_PACKAGE_minieap=y
+          CONFIG_PACKAGE_luci-app-familycloud=y
           CONFIG_PACKAGE_luci-app-koolproxyR=y
           CONFIG_PACKAGE_luci-app-mwan3=y
           CONFIG_PACKAGE_luci-app-mwan3helper=y
@@ -248,7 +248,7 @@ jobs:
            
           # LuCI主题:
           cat >> .config <<EOF
-          CONFIG_PACKAGE_luci-theme-bootstrap=y
+          #CONFIG_PACKAGE_luci-theme-bootstrap=y
           CONFIG_PACKAGE_luci-theme-netgear=y
           EOF
           # 常用软件包:
